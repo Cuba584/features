@@ -21,8 +21,19 @@ video#bgvid {
 }
 #title {
   color: white;
-  min-height: 10em; 
+  min-height: 10em;
   display: flex;
   align-items: center;
+  cursor:default;
 
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
